@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: #e4a7e1;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #fef8bf;
+  text-shadow: -1px 3px 0 #000,
+                          3px 3px 0 #000,
+                         3px -3px 0 #000,
+                        -3px -3px 0 #000;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.animate{
+  transform: scale(0.5);
+}
+.animate2{
+  background-color: red;
+}
+.hide{
+  visibility: hidden;
+}
+.start {
+  background: #b81f1f;
+  background-image: -webkit-linear-gradient(top, #b81f1f, #d48c8c);
+  background-image: -moz-linear-gradient(top, #b81f1f, #d48c8c);
+  background-image: -ms-linear-gradient(top, #b81f1f, #d48c8c);
+  background-image: -o-linear-gradient(top, #b81f1f, #d48c8c);
+  background-image: linear-gradient(to bottom, #b81f1f, #d48c8c);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.start:hover {
+  background: #2b9c39;
+  background-image: -webkit-linear-gradient(top, #2b9c39, #7ad684);
+  background-image: -moz-linear-gradient(top, #2b9c39, #7ad684);
+  background-image: -ms-linear-gradient(top, #2b9c39, #7ad684);
+  background-image: -o-linear-gradient(top, #2b9c39, #7ad684);
+  background-image: linear-gradient(to bottom, #2b9c39, #7ad684);
+  text-decoration: none;
+}
